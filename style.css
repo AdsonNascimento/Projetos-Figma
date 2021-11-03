@@ -361,6 +361,16 @@ nav.show div.icon-close {
   background: white;
 }
 
+#testimonials header {
+  margin-bottom: 0;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+#testimonials .container {
+  margin-left: 0;
+}
+
 #testimonials blockquote {
   padding: 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
@@ -375,10 +385,10 @@ nav.show div.icon-close {
 }
 
 #testimonials blockquote p span {
-  font: 700 3rem serif;
+  font: 700 2.5rem serif;
 
   position: absolute;
-  top: -0.5rem;
+  top: -0.375rem;
   left: -1.875rem;
   color: var(--base-color);
 }
@@ -395,4 +405,51 @@ nav.show div.icon-close {
   object-fit: cover;
   clip-path: circle();
   margin-right: 0.5rem;
+}
+
+/* swiper */
+.swiper-slide {
+  height: auto;
+  padding: 4rem 1rem;
+  position: relative;
+  top: -2rem;
+}
+
+span.swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+  position: absolute;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--base-color);
+}
+
+/*===========contact=============*/
+
+#contact .grid {
+  gap: 4rem;
+}
+
+#contact .text p {
+  margin-bottom: 2rem;
+}
+
+#contact .button i,
+#contact ul li i {
+  font-size: 1.5rem;
+  margin-right: 0.625rem;
+}
+
+#contact .grid ul {
+  gap: 2rem;
+}
+
+#contact ul li {
+  display: flex;
+  align-items: center;
+}
+
+#contact ul li i {
+  color: var(--base-color);
 }
