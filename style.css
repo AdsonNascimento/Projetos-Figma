@@ -359,6 +359,7 @@ nav.show div.icon-close {
 
 #testimonials {
   background: white;
+  overflow: hidden;
 }
 
 #testimonials header {
@@ -411,14 +412,11 @@ nav.show div.icon-close {
 .swiper-slide {
   height: auto;
   padding: 4rem 1rem;
-  position: relative;
-  top: -2rem;
 }
 
 span.swiper-pagination-bullet {
   width: 0.75rem;
   height: 0.75rem;
-  position: absolute;
 }
 
 .swiper-pagination-bullet-active {
@@ -453,3 +451,5 @@ span.swiper-pagination-bullet {
 #contact ul li i {
   color: var(--base-color);
 }
+
+/*===========scrollreveal=============*/
