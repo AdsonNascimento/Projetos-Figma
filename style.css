@@ -178,7 +178,7 @@ nav ul li a {
 }
 
 nav ul li a:hover,
-nav ul li a.active:hover {
+nav ul li a.active {
   color: var(--base-color);
 }
 
