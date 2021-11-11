@@ -9,13 +9,12 @@ https://adsonnascimento.github.io/Projetos-Figma
 
 ##
 
-### Versão Desktop.
+### Versão Desktop
 
-<img width="676" alt="cap 1" src="https://user-images.githubusercontent.com/92870039/141305272-6328f9e6-d93b-4631-ade3-9b279027d6bb.png">
-<img width="675" alt="cap 2" src="https://user-images.githubusercontent.com/92870039/141305288-37ca43a5-62f0-4aa4-ab56-4cc417ebf7b0.png">
+![01](https://user-images.githubusercontent.com/92870039/141308281-d0efd7a3-4b1e-46c1-ac7a-a009ec925794.png)
 
-##
 
-### Versão mobile.
+
+### Versão mobile
 
 ![Untitled-1](https://user-images.githubusercontent.com/92870039/141307016-1ea24bad-67c5-4b94-aac7-78535200432d.png)
