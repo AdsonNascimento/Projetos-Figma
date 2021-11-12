@@ -5,7 +5,7 @@ Esse é um exemplo de site com página estática voltado para apresentação emp
 Construido com a ulização de váriaveis no CSS para controlar as cores e tamnhos de fontes permitindo fácil adpatação a novos conteudos. Também foi feito com a ultilização do swiperjs e scrollrevealjs para dar mais fluides a página.
 Com a ultilização de JavaScript e CSS foi feito a interação da altura da página com a animação da barra inferior do header. 
 
-https://adsonnascimento.github.io/Projetos-Figma
+https://adsonnascimento.github.io/nlw-origin/
 
 ##
 
