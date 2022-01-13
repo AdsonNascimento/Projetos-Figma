@@ -63,14 +63,13 @@ scrollReveal.reveal(
   #testimonials header, #testimonials .testimonials,
   #contact .text, #contact .links,
   footer .brand, footer .logo`,
- { interval: 100 }
- )
+  { interval: 100 }
+)
 
- /* =========== bcto to top ============ */
+/* =========== bcto to top ============ */
 const backToTopButton = document.querySelector('.back-to-top')
 
 function backToTop() {
-
   if (window.scrollY >= 560) {
     backToTopButton.classList.add('show')
   } else {
@@ -81,27 +80,26 @@ function backToTop() {
 /* menu ativo conforme seção ativa na pagina */
 const sections = document.querySelectorAll('main section[id]')
 function activateMenuAtCurrentSection() {
+  const checkpoit = window.pageYOffset + (window.innerHeight / 8) * 4
 
-    const checkpoit = window.pageYOffset + (window.innerHeight / 8) * 4
+  for (const section of sections) {
+    const sectionTop = section.offsetTop
+    const sectionHeigt = section.offsetHeight
+    const sectionId = section.getAttribute('id')
 
-    for( const section of sections ) {
-      const sectionTop = section.offsetTop
-      const sectionHeigt = section.offsetHeight
-      const sectionId =  section.getAttribute('id')
+    const checkpoitStart = checkpoit >= sectionTop
+    const checkpoitEnd = checkpoit <= sectionTop + sectionHeigt
 
-      const checkpoitStart = checkpoit >= sectionTop
-      const checkpoitEnd = checkpoit <= sectionTop + sectionHeigt
-
-      if(checkpoitStart && checkpoitEnd) {
-        document
-          .querySelector('nav ul li a[href*=' + sectionId + ']')
-          .classList.add('active')
-      } else {
-        document
-          .querySelector('nav ul li a[href*=' + sectionId + ']')
-          .classList.remove('active')
-      }
+    if (checkpoitStart && checkpoitEnd) {
+      document
+        .querySelector('nav ul li a[href*=' + sectionId + ']')
+        .classList.add('active')
+    } else {
+      document
+        .querySelector('nav ul li a[href*=' + sectionId + ']')
+        .classList.remove('active')
     }
+  }
 }
 
 /* when scroll */
